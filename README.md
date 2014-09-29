@@ -1,38 +1,23 @@
-Angular Sticky
-==============
+Angular Sticky Nav
+==================
 
-A simple, pure javascript (No jQuery required!) AngularJS directive to make elements stick when scrolling down.
+An angular directive for top navs that should stay on top as you scroll down. *(Of course this could work with any element you'd want that for. Weird.)*
 
-# Features
+##Features
+* Vanilla: JavaScript
+* Sprinkles: No classes are added, no CSS files or configuration is needed
+* Chocolate: Considers if you have an element above your nav, say, a heading
+* Cream: Recalculates element position on page load and on window resize
 
-  * Allows use of an offset so elements can be sticked to ej. 50px from the top of the browser
-  * Recalculates element position on page load and on window resize
-  * Clean: No classes are added, no jQuery is required, no CSS files or configuration is needed.
 
-  
-# Bower
-
-Install with bower with:
-
+##Bower
 ```bash
-bower install ngSticky
+bower install ngStickyNav
 ```
 
+##Usage
+[TODO]
 
-# Usage
-
-Include the .js file in your page then enable usage of the directive by including the "sticky" module
-as a dependency. Use the directive as follows:
-
-    <div sticky> Hey there! </div>
-
-To make the element stick within a certain offset of the top of the screen, you can provide an offset as follows:
-
-    <div sticky offset="100"> I won't touch the top of your screen! </div>
-    
-If you want to customize the style while the element is sticky, we have an api for you too:
-
-    <div sticky offset="100" sticky-class="imSoSticky"> Taste my gule! </div>
-    
-    
-Cheers.
+##Acknowledgements
+Inspiration taken from
+[David Oliveros' Angular Sticky](https://github.com/d-oliveros/angular-sticky) and [Navigation Menu that Stays on Top with jQuery | Backslash](http://www.backslash.gr/content/blog/webdevelopment/6-navigation-menu-that-stays-on-top-with-jquery)

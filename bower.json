@@ -1,12 +1,12 @@
 {
-  "name": "angular-sticky",
-  "version": "1.0.1",
-  "homepage": "https://github.com/d-oliveros/angular-sticky",
+  "name": "angular-sticky-nav",
+  "version": "1.0",
+  "homepage": "https://github.com/designbyadrian/angular-sticky-nav",
   "authors": [
-    "David Oliveros <dato.oliveros@gmail.com>"
+    "Adrian von Gegerfelt <adrian@designbyadrian.com>"
   ],
-  "description": "A simple, pure javascript (No jQuery required!) AngularJS directive to make elements stick when scrolling down.",
-  "main": "sticky.js",
+  "description": "Angular directive for top navs that should stay on top as you scroll down.",
+  "main": "angular-sticky-nav.js",
   "dependencies": {
     "angular": "^1.2.0"
   },
@@ -15,7 +15,7 @@
     "angular",
     "sticky",
     "fixed",
-    "position"
+    "navigation"
   ],
   "license": "MIT",
   "ignore": [
